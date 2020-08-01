@@ -1,33 +1,48 @@
 #pragma once
 #include<string>
-class Class
-{
-public:	
-	Class(int a, int b) :m_a(a), m_b(b) {
-	}
-	int m_a;
-	int m_b;
-private:
-
-};
 class student
 {
 public:
-	student(int age, string name);
+	student();
+	student(int ip, string name, string id);
 	~student();
-	int age;
+	int ip;
 	string name;
+	string id;
 private:
 
 };
 
-student::student(int a,string n):age(a),name(n)
+student::student(int ip, string name, string id):ip(ip),name(name),id(id)
+{
+}
+
+student::student()
 {
 }
 
 student::~student()
 {
 }
+class MyClass
+{
+public:
+	MyClass();
+	~MyClass();
+	int flg = 0;
+	student* my[100];
+private:
+
+};
+
+MyClass::MyClass()
+{
+}
+
+MyClass::~MyClass()
+{
+}
+
 
 
 
