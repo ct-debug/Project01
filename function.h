@@ -21,3 +21,6 @@ void see(MyClass& MY) {
 		cout << MY.my[i]->id << endl;
 	}
 }
+void del() {
+
+}

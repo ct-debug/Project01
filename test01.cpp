@@ -33,7 +33,7 @@ int main(){
 			break;
 		}
 		case 2: {
-			
+			del();
 			break;
 		}
 		case 3: {
