@@ -7,7 +7,7 @@ void add(int ip,string name,string id,MyClass &MY) {
 		cout << "添加成功" << endl;
 	}
 	else {
-		cout << "通讯录已满" << endl;
+		cout << "通讯录已经满" << endl;
 	}
 }
 void see(MyClass& MY) {
