@@ -33,7 +33,10 @@ int main(){
 			break;
 		}
 		case 2: {
-			del();
+			int a;
+			cout << "请输入删除的联系人号码：" << endl;
+			cin >> a;
+			del(a);
 			break;
 		}
 		case 3: {
