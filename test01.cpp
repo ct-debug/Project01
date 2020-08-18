@@ -36,7 +36,7 @@ int main(){
 			int a;
 			cout << "请输入删除的联系人号码：" << endl;
 			cin >> a;
-			del(a);
+			del(a, MY);
 			break;
 		}
 		case 3: {
