@@ -40,7 +40,10 @@ int main(){
 			break;
 		}
 		case 3: {
-			
+			int b;
+			cout << "请输入要修改的联系人:" ;
+			cin >> b;
+			ch(b,MY);
 			break;
 		}
 		case 4: {
